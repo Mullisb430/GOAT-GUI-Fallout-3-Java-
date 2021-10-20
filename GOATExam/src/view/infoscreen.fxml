@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="610.0" prefWidth="1000.0" style="-fx-background-color: #192e0d #192e0d;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.InfoScreenController">
+   <children>
+      <Label alignment="CENTER" layoutX="39.0" layoutY="57.0" prefHeight="75.0" prefWidth="228.0" text="What is the G.O.A.T Exam?" textAlignment="CENTER" textFill="#51d108" wrapText="true">
+         <font>
+            <Font name="Avenir Book" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="39.0" layoutY="132.0" prefHeight="140.0" prefWidth="235.0" text="- The G.O.A.T. (Generalized Occupational Aptitude Test) is a Vault-Tec occupational assessment test that every resident of a vault is required to take at the age of 16." textAlignment="CENTER" textFill="#51d108" wrapText="true">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="42.0" layoutY="297.0" prefHeight="121.0" prefWidth="228.0" text="Where did the GOAT Exam come from?" textAlignment="CENTER" textFill="#51d108" wrapText="true">
+         <font>
+            <Font name="Avenir Book" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="39.0" layoutY="418.0" prefHeight="158.0" prefWidth="235.0" text="- The Generalized Occupational Aptitude Test, or GOAT, is the way you choose your character's special skills in the 2008 videogame &quot;Fallout 3.&quot; Each answer in the quiz equates to one of the game's special skills." textAlignment="CENTER" textFill="#51d108" wrapText="true">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="377.0" layoutY="54.0" prefHeight="101.0" prefWidth="228.0" text="How does the GOAT Exam work?" textAlignment="CENTER" textFill="#51d108" wrapText="true">
+         <font>
+            <Font name="Avenir Book" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="377.0" layoutY="152.0" prefHeight="140.0" prefWidth="235.0" text="- Based on the answers you give for the GOAT Exam's questions, you will be assigned a career at the end of the test. Every question you answer is taken into account." textAlignment="CENTER" textFill="#51d108" wrapText="true">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="377.0" layoutY="327.0" prefHeight="101.0" prefWidth="228.0" text="How accurate is the GOAT Exam?" textAlignment="CENTER" textFill="#51d108" wrapText="true">
+         <font>
+            <Font name="Avenir Book" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="377.0" layoutY="438.0" prefHeight="140.0" prefWidth="235.0" text="- Its own proctors tend to doubt its effectiveness and some even will allow students to alter their GOATS or even allow them to skip the test with the Proctor making up a dummy GOAT proving they took it." textAlignment="CENTER" textFill="#51d108" wrapText="true">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="729.0" layoutY="51.0" prefHeight="121.0" prefWidth="228.0" text="What do the S.P.E.C.I.A.L skills stand for?" textAlignment="CENTER" textFill="#51d108" wrapText="true">
+         <font>
+            <Font name="Avenir Book" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="729.0" layoutY="167.0" prefHeight="134.0" prefWidth="228.0" text="S.trength P.erception, E.ndurance, C.harisma, I.ntelligence, A.gility, L.uck" textAlignment="CENTER" textFill="#51d108" wrapText="true">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="729.0" layoutY="319.0" prefHeight="121.0" prefWidth="228.0" text="How many potential careers can the GOAT Exam assign?" textAlignment="CENTER" textFill="#51d108" wrapText="true">
+         <font>
+            <Font name="Avenir Book" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="726.0" layoutY="450.0" prefHeight="140.0" prefWidth="235.0" text="- The GOAT Exam can currently assign you to thirteen different careers." textAlignment="CENTER" textFill="#51d108" wrapText="true">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="infoBackButton" layoutX="14.0" layoutY="7.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="127.0" style="-fx-background-color: rgba(0,0,0,0);" text="Back" textFill="#51d108">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Line fx:id="backBorderTop" endX="26.0" layoutX="115.0" layoutY="7.0" startX="-100.0" stroke="#51d108" visible="false" />
+      <Line fx:id="backBorderBottom" endX="26.0" layoutX="115.0" layoutY="57.0" startX="-100.0" stroke="#51d108" visible="false" />
+      <Line fx:id="backBorderRight" endX="15.5" endY="-59.5" layoutX="126.0" layoutY="67.0" startX="15.5" startY="-10.0" stroke="#51d108" visible="false" />
+      <Line fx:id="backBorderLeft" endX="15.5" endY="-59.5" layoutX="-1.0" layoutY="67.0" startX="15.5" startY="-10.0" stroke="#51d108" visible="false" />
+   </children>
+</AnchorPane>
